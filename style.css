@@ -1,0 +1,106 @@
+/*
+Name: Cody Hoang
+Date: 09.27.23
+Section: CSE 190e
+This is the style.css page for my portfolio of web development
+    work. It is used by all pages in my portfolio to give the site
+    a consistent look and feel. 
+*/
+
+html {
+    background-color:#b68fe9;
+}
+
+header {
+    background-image: url("img/background.jpg");
+    background-color:#333;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.top-nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.top-nav {
+    position: absolute;
+    right: 90px;
+}
+
+main {   
+    justify-content: center; 
+    padding: 100px 20px;
+}
+
+footer {
+    margin-top: 50px;
+    flex-direction: column;    
+}
+
+header, main, footer {
+    display: flex;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    align-items: center; 
+}
+
+.top-nav ul li a, header {
+    color: white;
+}
+
+header, footer {
+    padding: 10px;
+}
+
+/* index.html */
+
+.cat img {
+    width: 50px; 
+    height: 50px;
+}
+
+.name h1 {
+    margin-left: 10px; 
+}
+
+.photos img {
+    width: 45%;
+    display: block; 
+    margin-right: 10px;
+    float: left; 
+}
+
+.about-me section {
+    background-color: #f1dfdf; 
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* contact.html */
+
+.contact-info {    
+    text-align: center;        
+}
+
+.contact-info h1 {
+    font-size: 65px;
+}
+.contact-info hr {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.contact-info img {
+    width: 120px;
+    height: auto;
+    margin: 10px 20px;
+}
+
